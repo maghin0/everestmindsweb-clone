@@ -1,0 +1,192 @@
+/* fonts */
+@font-face {
+  font-family: montserrat;
+  src: url(/assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+/* mobile first */
+/* screen tablet and above */
+@media only screen and (min-width: 768px) {
+  .hero {
+    height: 69vh !important;
+  }
+  .section-spacing-h {
+    padding: 0vw 0vw !important;
+  }
+  .success-story {
+    min-width: 30vw !important;
+    height: 40vh !important;
+  }
+  .hero-img {
+    max-width: 100% !important;
+    width: 30% !important;
+  }
+  .abs-b-r-hero {
+    position: absolute !important;
+    bottom: 0 !important;
+    right: 15% !important;
+  }
+  .hero-text {
+    width: 40vw;
+  }
+  .section-space {
+    padding: 3vw 9vw;
+  }
+
+  .small-icon {
+    max-width: 100% !important;
+  }
+  .impact-logo {
+    max-width: 15%;
+  }
+  .has-tiny-text {
+    font-size: 1rem !important;
+  }
+  section {
+    padding: 4vw 9vw 0vw 9vw !important;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'montserrat' !important;
+  color: #09325b;
+  overflow-x: hidden;
+}
+section {
+  padding: 10vw 10vw 0vw 10vw;
+}
+
+nav {
+  text-decoration: none;
+}
+
+/* horizontal scrollbar */
+::-webkit-scrollbar-track {
+  background: #f8f0e3;
+}
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+}
+::-webkit-scrollbar {
+  width: 9px;
+  height: 0vh;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(30, 181, 3);
+}
+
+/* section spacing */
+.section-spacing-w {
+  padding: 0vw 5vw;
+}
+.section-spacing-h {
+  padding: 5vw 0vw;
+}
+
+/* navbar */
+.navbar-toggler {
+  border: transparent;
+  background-image: url();
+}
+.has-white-text {
+  color: white;
+}
+.offcanvas {
+  background-color: #09325b;
+}
+.dropdown-menu {
+  background-color: #09325b;
+  color: white !important;
+  border: none;
+}
+.dropdown-item {
+  color: white;
+}
+
+.nav-link {
+  color: white !important;
+}
+.nav-pe {
+  padding: 1vw 9vw;
+}
+.nav-scrolled {
+  background-color: #09325b !important;
+}
+
+/* hero */
+.hero-text {
+  width: 20vw;
+}
+.hero-img {
+  max-width: 60%;
+  width: 60%;
+}
+
+.abs-b-r-hero {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  /* overflow: hidden; */
+}
+.abs-b-l-hero-txt {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+.hero {
+  height: 50vh;
+}
+/* logos / icons*/
+.small-icon {
+  max-width: 6%;
+}
+.impact-logo {
+  max-width: 20%;
+}
+
+.bg-roche {
+  background-color: #fd5d5d;
+}
+.success-story {
+  min-width: 85vw;
+  height: 35vh;
+  border-radius: 1vw;
+}
+.abs-b-r {
+  position: absolute;
+  bottom: 0;
+  right: -5%;
+}
+.abs-b-l {
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+}
+
+/* horizontal scroll */
+.scrollmenu {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.scrollmenu div {
+  display: inline-block;
+  color: white;
+  /* text-align: center; */
+  /* padding: 14px; */
+  text-decoration: none;
+}
+
+/* text */
+.has-tiny-text {
+  font-size: 0.7rem;
+}
+
+.has-gray-text {
+  color: #67819a;
+}
+.has-green-text {
+  color: #069a8e;
+}

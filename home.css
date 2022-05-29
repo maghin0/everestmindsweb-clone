@@ -1,0 +1,199 @@
+@font-face {
+  font-family: montserrat;
+  src: url(/assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+body {
+  font-family: 'montserrat' !important;
+  color: #09325b;
+  overflow-x: hidden;
+}
+#p-txt-white {
+  color: white;
+}
+@media only screen and (min-width: 768px) {
+  .hero {
+    height: 100vh !important;
+  }
+  .section-spacing-h {
+    padding: 0vw 0vw !important;
+  }
+  .success-story {
+    min-width: 30vw !important;
+    height: 40vh !important;
+  }
+  .hero-img {
+    max-width: 100% !important;
+    width: 30% !important;
+  }
+  .abs-b-r-hero {
+    position: absolute !important;
+    bottom: 0 !important;
+    right: 15% !important;
+  }
+  /* bg / backgroun */
+  .bg-contact-us {
+    height: 35vh !important;
+  }
+
+  .bg-iclaim {
+    background-color: #047068;
+    height: 60vh;
+    border-radius: 1vw;
+  }
+  .bg-ease {
+    background-color: #47225e;
+    height: 60vh;
+    border-radius: 1vw;
+  }
+  .bg-eda {
+    background-color: #3a3845;
+    height: 60vh;
+    border-radius: 1vw;
+  }
+  .bg-savvyz {
+    background-color: #fd5d5d;
+    height: 60vh;
+    border-radius: 1vw;
+  }
+  .bg-checkme {
+    background-color: #064663;
+    height: 60vh;
+    border-radius: 1vw;
+  }
+
+  /* icon */
+  .services-icon {
+    max-width: 90%;
+  }
+  /* text */
+  .has-green-text {
+    color: #069a8e;
+  }
+  .hero-text {
+    width: 40vw;
+  }
+  .has-tiny-text {
+    font-size: 1rem !important;
+  }
+  .short-text {
+    max-width: 40%;
+  }
+  .section-space {
+    padding: 3vw 9vw;
+  }
+
+  .small-icon {
+    max-width: 100% !important;
+  }
+  .impact-logo {
+    max-width: 15%;
+  }
+
+  section {
+    padding: 4vw 9vw 0vw 9vw !important;
+  }
+}
+section {
+  padding: 10vw 10vw 0vw 10vw;
+}
+
+/* navbar */
+.navbar-toggler {
+  border: transparent;
+  background-image: url();
+}
+.has-white-text {
+  color: white;
+}
+.offcanvas {
+  background-color: #09325b;
+}
+.dropdown-menu {
+  background-color: #09325b;
+  color: white !important;
+  border: none;
+}
+.dropdown-item {
+  color: white;
+}
+
+.nav-link {
+  color: white !important;
+}
+.nav-pe {
+  padding: 1vw 9vw;
+}
+.nav-scrolled {
+  background-color: #09325b !important;
+}
+/* hero */
+.hero-home-txt {
+  max-width: 69vw;
+  color: white;
+}
+.hero {
+  height: 100vh !important;
+  background-image: url(./assets/hero-home-lg.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+/* brands */
+div.grayscale {
+  filter: grayscale(1);
+}
+div.grayscale:hover {
+  filter: grayscale(0);
+}
+
+/* card */
+.card-like {
+  border-radius: 1vw;
+  box-shadow: 21px 21px 20px -4px rgb(0 0 0 / 5%);
+  background-image: linear-gradient(180deg, #fff, #fff);
+}
+
+/* imgs */
+.ease-doctor-img {
+  margin-left: 2vw !important;
+  max-width: 50%;
+}
+
+.flex-gap {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+/* bg / background */
+.bg-contact-us {
+  background-image: url(./assets/contact-us-lg.png);
+
+  background-repeat: no-repeat;
+  background-position: 50% 69%;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.bg-blue {
+  background-image: rgba(9, 50, 91, 0.1);
+}
+.bg-icon-iclaim {
+  background-image: url(./assets/icons/email-icon.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  height: 90px;
+  width: 90px;
+}
+.bg-yellow {
+  background-color: yellow;
+}
+
+.bg-chocolate {
+  background-color: chocolate;
+}
+.bg-red {
+  background-color: red;
+}
