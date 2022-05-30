@@ -69,6 +69,12 @@ body {
   .has-green-text {
     color: #069a8e;
   }
+  .has-blue-text {
+    color: #09325b;
+  }
+  .has-gray-text {
+    color: #747578;
+  }
   .hero-text {
     width: 40vw;
   }
@@ -201,6 +207,31 @@ div.grayscale:hover {
 .bg-red {
   background-color: red;
 }
+/* shapes */
+.line {
+  border-right: 5px;
+  width: 2px;
+  height: 100%;
+  background-color: #d7d2e3;
+  display: block;
+}
+.circle {
+  border-radius: 50%;
+  background-color: #069a8e;
+  width: 25px;
+  height: 25px;
+  display: block;
+  position: absolute;
+}
+.circle-blue {
+  border-radius: 50%;
+  background-color: #09325b;
+  width: 25px;
+  height: 25px;
+  display: block;
+  position: absolute;
+}
+
 /* footer */
 .border-top-footer {
   border-top: 0.5px solid #bcc7d2;

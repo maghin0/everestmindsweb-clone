@@ -180,6 +180,14 @@ div.grayscale:hover {
   height: 100%;
   width: 100%;
 }
+.bg-map {
+  background-image: url(./assets/map.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 69%;
+  background-size: cover;
+  height: 30vh;
+  width: 100%;
+}
 .bg-blue {
   background-image: rgba(9, 50, 91, 0.1);
 }
